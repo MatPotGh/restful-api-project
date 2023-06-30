@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rest_api_project
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root}
+  sql:
+    init:
+      mode: always
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+github:
+  host: https://api.github.com
