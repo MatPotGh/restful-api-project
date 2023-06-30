@@ -12,11 +12,11 @@
     <artifactId>restful-api-project</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>restful-api-project</name>
-    <description>A simple REST service that will return user information from the github platform.
+    <description>
+		A simple REST service that will return user information from the github platform.
     </description>
     <properties>
         <java.version>17</java.version>
-
     </properties>
     <dependencies>
         <dependency>
