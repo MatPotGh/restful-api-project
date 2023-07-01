@@ -68,9 +68,9 @@ GET /users/{login}
 
 
 
-```http
+
 http://localhost:8080/swagger-ui/#/
-```
+
 
 
 ### Rest API Success Responses
