@@ -27,7 +27,7 @@ create database rest_api_project;
 ```
 Clone the repository:
 
-```bash
+
 git clone https://github.com/MatPotGh/restful-api-project.git
 ```
 
@@ -68,9 +68,9 @@ GET /users/{login}
 
 
 
-
+```bash
 http://localhost:8080/swagger-ui/#/
-
+```
 
 
 ### Rest API Success Responses
