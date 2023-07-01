@@ -20,10 +20,10 @@ public class UserInfo {
     @Column(name = "login")
     private String login;
 
-    @Column(name = "request_counter")
-    private Long requestCounter;
+    @Column(name = "request_count")
+    private Long requestCount;
 
     public void incrementRequestCounter() {
-        this.requestCounter++;
+        this.requestCount++;
     }
 }

@@ -18,7 +18,7 @@ public class UserInfoMapper {
         }
         UserInfo userInfo = new UserInfo();
         userInfo.setLogin(login);
-        userInfo.setRequestCounter(INITIAL_REQUEST_COUNTER);
+        userInfo.setRequestCount(INITIAL_REQUEST_COUNTER);
         return userInfo;
     }
 

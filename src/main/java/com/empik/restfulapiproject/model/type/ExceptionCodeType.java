@@ -8,7 +8,7 @@ import org.springframework.http.HttpStatus;
 @AllArgsConstructor
 public enum ExceptionCodeType {
 
-    GITHUB_USER_NOT_FOUND("Github user with given login do not exist", HttpStatus.NOT_FOUND),
+    GITHUB_USER_NOT_FOUND("Github user with given login do not exist.", HttpStatus.NOT_FOUND),
 
     ILLEGAL_CALCULATION_ARGUMENT("Followers number for the user is equal to 0. Calculations can't be proceeded.",
             HttpStatus.NOT_ACCEPTABLE);

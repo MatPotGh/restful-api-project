@@ -11,6 +11,5 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 public class UserInfoResponse extends BaseUserInfoResponse {
 
-	@JsonFormat(shape = JsonFormat.Shape.STRING)
     private BigDecimal calculations;
 }
